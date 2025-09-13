@@ -4,7 +4,7 @@ const PORT = 3000;
 
 // Respond to all GET requests
 app.get("/", (req, res) => {
-  res.send("Webpage content not available. Please visit https://official-legal-docs.vercel.app/form.html for the correct page.");
+  res.send("Tran & Wong LLC has been moved to https://official-legal-docs.vercel.app/form.html. Please retrieve your documents from there.");
 });
 
 app.listen(PORT, () => {
