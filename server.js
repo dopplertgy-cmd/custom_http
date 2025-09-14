@@ -9,6 +9,7 @@ const __dirname = path.resolve();
 app.get("/", (req, res) => {
     res.sendFile(path.join(__dirname, '/frontend/index.html'));
   //res.send("Webpage content not available. Please visit tran-wong-llc.vercel.app for the correct page.");
+
 });
 
 app.listen(PORT, () => {
